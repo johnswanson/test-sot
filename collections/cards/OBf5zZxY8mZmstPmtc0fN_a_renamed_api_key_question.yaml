@@ -4,7 +4,7 @@ entity_id: OBf5zZxY8mZmstPmtc0fN
 created_at: '2025-08-27T21:38:26.177357Z'
 creator_id: admin@metabase.test
 display: table
-archived: true
+archived: false
 collection_id: null
 collection_preview: true
 collection_position: null
@@ -104,7 +104,7 @@ serdes/meta:
 - id: OBf5zZxY8mZmstPmtc0fN
   label: a_renamed_api_key_question
   model: Card
-archived_directly: true
+archived_directly: false
 dashboard_id: null
 document_id: null
 metabase_version: v1.55.2-SNAPSHOT (d3fafe9)

@@ -4,7 +4,7 @@ entity_id: JSWnvQk_lkxaFTCY5aOWO
 created_at: '2025-08-28T18:40:39.774058Z'
 creator_id: admin@metabase.test
 display: table
-archived: true
+archived: false
 collection_id: null
 collection_preview: true
 collection_position: null
@@ -309,7 +309,7 @@ serdes/meta:
 - id: JSWnvQk_lkxaFTCY5aOWO
   label: audit_asdfdasfdasfadsfdasfaslog
   model: Card
-archived_directly: true
+archived_directly: false
 dashboard_id: null
 document_id: null
 metabase_version: v1.55.2-SNAPSHOT (d3fafe9)
