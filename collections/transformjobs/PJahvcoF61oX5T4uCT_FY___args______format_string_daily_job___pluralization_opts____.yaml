@@ -1,0 +1,15 @@
+built_in_type: null
+created_at: '2025-08-28T14:03:14.796785Z'
+description: '{:args [], :format-string Executes transforms tagged with ''''daily'''' once per day, :pluralization-opts {}}'
+entity_id: PJahvcoF61oX5T4uCT_FY
+name: '{:args [], :format-string Daily job, :pluralization-opts {}}'
+schedule: 0 0 0 * * ? *
+tag_associations:
+- entity_id: PJahvcoF61oX5T4uCT_FY
+  position: 0
+  tag_id: dUW7nvQHQBdA0Rx0gJckI
+updated_at: '2025-08-28T14:03:14.796785Z'
+serdes/meta:
+- id: PJahvcoF61oX5T4uCT_FY
+  label: __args______format_string_daily_job___pluralization_opts____
+  model: TransformJob

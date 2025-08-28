@@ -1,0 +1,61 @@
+name: Audit Log, Countasdfadsfasdfdasfadsf
+description: null
+entity_id: f4u0A7S3OygBSmpsl_Bw9
+created_at: '2025-08-28T18:53:30.733702Z'
+creator_id: admin@metabase.test
+display: scalar
+archived: true
+collection_id: null
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: AppDB
+table_id:
+- AppDB
+- public
+- audit_log
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: AppDB
+  query:
+    aggregation:
+    - - count
+    source-table:
+    - AppDB
+    - public
+    - audit_log
+  type: query
+result_metadata:
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+card_schema: 22
+serdes/meta:
+- id: f4u0A7S3OygBSmpsl_Bw9
+  label: audit_log__countasdfadsfasdfdasfadsf
+  model: Card
+archived_directly: true
+dashboard_id: null
+document_id: null
+metabase_version: v1.55.2-SNAPSHOT (d3fafe9)
+source_card_id: null
+type: question

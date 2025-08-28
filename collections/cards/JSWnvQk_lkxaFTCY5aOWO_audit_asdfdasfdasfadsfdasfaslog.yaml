@@ -1,0 +1,317 @@
+name: Audit asdfdasfdasfadsfdasfasLog
+description: null
+entity_id: JSWnvQk_lkxaFTCY5aOWO
+created_at: '2025-08-28T18:40:39.774058Z'
+creator_id: admin@metabase.test
+display: table
+archived: true
+collection_id: null
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: AppDB
+table_id:
+- AppDB
+- public
+- audit_log
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: AppDB
+  query:
+    source-table:
+    - AppDB
+    - public
+    - audit_log
+  type: query
+result_metadata:
+- active: true
+  base_type: type/Integer
+  database_type: serial
+  display_name: ID
+  effective_type: type/Integer
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - id
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - id
+  name: id
+  position: 0
+  semantic_type: type/PK
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: id
+  lib/desired-column-alias: id
+  lib/original-display-name: ID
+  lib/original-name: id
+  lib/source: source/table-defaults
+  lib/source-column-alias: id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  description: The topic of a given audit event
+  display_name: Topic
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - topic
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - topic
+  name: topic
+  position: 1
+  semantic_type: type/Category
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: topic
+  lib/desired-column-alias: topic
+  lib/original-display-name: Topic
+  lib/original-name: topic
+  lib/source: source/table-defaults
+  lib/source-column-alias: topic
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/DateTimeWithLocalTZ
+  database_type: timestamptz
+  description: The time an event was recorded
+  display_name: Timestamp
+  effective_type: type/DateTimeWithLocalTZ
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - timestamp
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - timestamp
+  name: timestamp
+  position: 2
+  semantic_type: null
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: timestamp
+  lib/desired-column-alias: timestamp
+  lib/original-display-name: Timestamp
+  lib/original-name: timestamp
+  lib/source: source/table-defaults
+  lib/source-column-alias: timestamp
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/DateTimeWithLocalTZ
+  database_type: timestamptz
+  description: The time an event ended, if applicable
+  display_name: End Timestamp
+  effective_type: type/DateTimeWithLocalTZ
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - end_timestamp
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - end_timestamp
+  name: end_timestamp
+  position: 3
+  semantic_type: null
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: end_timestamp
+  lib/desired-column-alias: end_timestamp
+  lib/original-display-name: End Timestamp
+  lib/original-name: end_timestamp
+  lib/source: source/table-defaults
+  lib/source-column-alias: end_timestamp
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Integer
+  database_type: int4
+  description: The user who performed an action or triggered an event
+  display_name: User ID
+  effective_type: type/Integer
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - user_id
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - user_id
+  name: user_id
+  position: 4
+  semantic_type: null
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: user_id
+  lib/desired-column-alias: user_id
+  lib/original-display-name: User ID
+  lib/original-name: user_id
+  lib/source: source/table-defaults
+  lib/source-column-alias: user_id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  description: The name of the model this event applies to (e.g. Card, Dashboard), if applicable
+  display_name: Model
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - model
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - model
+  name: model
+  position: 5
+  semantic_type: type/Category
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: model
+  lib/desired-column-alias: model
+  lib/original-display-name: Model
+  lib/original-name: model
+  lib/source: source/table-defaults
+  lib/source-column-alias: model
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Integer
+  database_type: int4
+  description: The ID of the model this event applies to, if applicable
+  display_name: Model ID
+  effective_type: type/Integer
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - model_id
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - model_id
+  name: model_id
+  position: 6
+  semantic_type: null
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: model_id
+  lib/desired-column-alias: model_id
+  lib/original-display-name: Model ID
+  lib/original-name: model_id
+  lib/source: source/table-defaults
+  lib/source-column-alias: model_id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: text
+  description: A JSON map with metadata about the event
+  display_name: Details
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - AppDB
+    - public
+    - audit_log
+    - details
+  - null
+  id:
+  - AppDB
+  - public
+  - audit_log
+  - details
+  name: details
+  position: 7
+  semantic_type: type/SerializedJSON
+  source: fields
+  table_id:
+  - AppDB
+  - public
+  - audit_log
+  visibility_type: normal
+  lib/deduplicated-name: details
+  lib/desired-column-alias: details
+  lib/original-display-name: Details
+  lib/original-name: details
+  lib/source: source/table-defaults
+  lib/source-column-alias: details
+  metabase.lib.query/transformation-added-base-type: true
+visualization_settings:
+  column_settings: null
+  table.cell_column: details
+  table.pivot_column: end_timestamp
+card_schema: 22
+serdes/meta:
+- id: JSWnvQk_lkxaFTCY5aOWO
+  label: audit_asdfdasfdasfadsfdasfaslog
+  model: Card
+archived_directly: true
+dashboard_id: null
+document_id: null
+metabase_version: v1.55.2-SNAPSHOT (d3fafe9)
+source_card_id: null
+type: question

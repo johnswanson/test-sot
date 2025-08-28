@@ -1,0 +1,63 @@
+name: API Key Count
+description: null
+entity_id: XqVrpLMAdA7OGdlT7k7Yw
+created_at: '2025-08-28T19:45:13.695199Z'
+creator_id: admin@metabase.test
+display: table
+archived: true
+collection_id: 1G3afgOLhIg9RVok2yPER
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: AppDB
+table_id:
+- AppDB
+- public
+- core_user
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: AppDB
+  query:
+    aggregation:
+    - - count
+    source-table:
+    - AppDB
+    - public
+    - core_user
+  type: query
+result_metadata:
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+  table.cell_column: progress
+  table.pivot_column: id
+card_schema: 22
+serdes/meta:
+- id: XqVrpLMAdA7OGdlT7k7Yw
+  label: api_key_count
+  model: Card
+archived_directly: false
+dashboard_id: null
+document_id: null
+metabase_version: v1.55.2-SNAPSHOT (d3fafe9)
+source_card_id: null
+type: question

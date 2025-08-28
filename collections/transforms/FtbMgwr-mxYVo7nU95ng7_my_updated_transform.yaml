@@ -1,0 +1,25 @@
+created_at: '2025-08-27T16:58:35.172322Z'
+description: null
+entity_id: FtbMgwr-mxYVo7nU95ng7
+name: My UPDATED Transform
+source:
+  query:
+    database: AppDB
+    native:
+      query: SELECT * FROM report_card;
+      template-tags: {}
+    type: native
+  type: query
+tag_associations:
+- entity_id: alksdjflkasjnnnnnnnnn
+  position: 0
+  tag_id: dUW7nvQHQBdA0Rx0gJckI
+target:
+  name: tttttt
+  schema: public
+  type: table
+updated_at: '2025-08-27T16:58:35.172322Z'
+serdes/meta:
+- id: FtbMgwr-mxYVo7nU95ng7
+  label: my_updated_transform
+  model: Transform

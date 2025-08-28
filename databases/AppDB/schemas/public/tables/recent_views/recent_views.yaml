@@ -1,0 +1,27 @@
+name: recent_views
+display_name: Recent Views
+description: Used to store recently viewed objects for each user
+created_at: '2025-08-28T14:03:19.288269Z'
+db_id: AppDB
+schema: public
+entity_type: entity/GenericTable
+active: true
+is_upload: false
+field_order: database
+visibility_type: null
+show_in_getting_started: false
+initial_sync_status: complete
+points_of_interest: null
+caveats: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: recent_views
+  model: Table
+archived_at: null
+data_authority: unconfigured
+database_require_filter: null
+deactivated_at: null
+is_writable: true

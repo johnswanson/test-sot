@@ -1,0 +1,41 @@
+name: archive_operation_id
+display_name: Archive Operation ID
+description: The UUID of the trash operation. Each time you trash a collection subtree, you get a unique ID.
+created_at: '2025-08-28T14:03:20.608336Z'
+active: true
+visibility_type: normal
+table_id:
+- AppDB
+- public
+- collection
+database_type: bpchar
+base_type: type/Text
+effective_type: type/Text
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 14
+custom_position: 0
+database_position: 14
+has_field_values: auto-list
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: collection
+  model: Table
+- id: archive_operation_id
+  model: Field
+database_indexed: null
+database_partitioned: null

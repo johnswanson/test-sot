@@ -1,0 +1,41 @@
+name: model_id
+display_name: Model ID
+description: The ID of the model this entity references
+created_at: '2025-08-28T14:03:21.056108Z'
+active: true
+visibility_type: normal
+table_id:
+- AppDB
+- public
+- metabot_entity
+database_type: int4
+base_type: type/Integer
+effective_type: type/Integer
+semantic_type: null
+database_is_auto_increment: false
+database_required: true
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 3
+custom_position: 0
+database_position: 3
+has_field_values: auto-list
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: metabot_entity
+  model: Table
+- id: model_id
+  model: Field
+database_indexed: null
+database_partitioned: null

@@ -1,0 +1,18 @@
+name: asdfasdfadsfdsafasf
+description: null
+entity_id: 1G3afgOLhIg9RVok2yPER
+slug: asdfasdfadsfdsafasf
+created_at: '2025-08-28T19:44:00.13004Z'
+archived: true
+type: null
+parent_id: null
+personal_owner_id: null
+namespace: null
+authority_level: null
+serdes/meta:
+- id: 1G3afgOLhIg9RVok2yPER
+  label: asdfasdfadsfdsafasf
+  model: Collection
+archive_operation_id: 6277cb95-6456-4b82-9f71-1d577459efff
+archived_directly: true
+is_sample: false

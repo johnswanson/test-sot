@@ -1,0 +1,41 @@
+name: cache_invalidated_at
+display_name: Cache Invalidated At
+description: An invalidation time that can supersede cache_config.invalidated_at
+created_at: '2025-08-28T14:03:21.573426Z'
+active: true
+visibility_type: normal
+table_id:
+- AppDB
+- public
+- report_card
+database_type: timestamptz
+base_type: type/DateTimeWithLocalTZ
+effective_type: type/DateTimeWithLocalTZ
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 30
+custom_position: 0
+database_position: 30
+has_field_values: null
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: report_card
+  model: Table
+- id: cache_invalidated_at
+  model: Field
+database_indexed: null
+database_partitioned: null

@@ -1,0 +1,41 @@
+name: job_data
+display_name: Job Data
+description: null
+created_at: '2025-08-28T14:03:21.480432Z'
+active: true
+visibility_type: normal
+table_id:
+- AppDB
+- public
+- qrtz_triggers
+database_type: bytea
+base_type: type/*
+effective_type: type/*
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 15
+custom_position: 0
+database_position: 15
+has_field_values: auto-list
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: qrtz_triggers
+  model: Table
+- id: job_data
+  model: Field
+database_indexed: null
+database_partitioned: null
