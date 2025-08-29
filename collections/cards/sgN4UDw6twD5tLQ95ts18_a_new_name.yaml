@@ -1,4 +1,4 @@
-name: Orders, Cumulative sum of Total
+name: A New Name
 description: null
 entity_id: sgN4UDw6twD5tLQ95ts18
 created_at: '2025-08-29T15:15:04.817055Z'
@@ -57,7 +57,7 @@ visualization_settings:
 card_schema: 22
 serdes/meta:
 - id: sgN4UDw6twD5tLQ95ts18
-  label: orders__cumulative_sum_of_total
+  label: a_new_name
   model: Card
 archived_directly: false
 dashboard_id: null
