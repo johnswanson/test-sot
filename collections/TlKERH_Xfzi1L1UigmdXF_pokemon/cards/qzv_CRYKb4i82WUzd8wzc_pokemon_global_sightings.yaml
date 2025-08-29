@@ -1,0 +1,241 @@
+name: Pokemon Global Sightings
+description: null
+entity_id: qzv_CRYKb4i82WUzd8wzc
+created_at: '2025-08-29T15:33:39.001678Z'
+creator_id: ux-west@metabase.com
+display: table
+archived: false
+collection_id: TlKERH_Xfzi1L1UigmdXF
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- pokemon_global_sightings_20250829153336
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    source-table:
+    - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+  type: query
+result_metadata:
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: _mb_row_id
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - _mb_row_id
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - _mb_row_id
+  name: _mb_row_id
+  position: 0
+  semantic_type: type/PK
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: _mb_row_id
+  lib/desired-column-alias: _mb_row_id
+  lib/original-display-name: _mb_row_id
+  lib/original-name: _mb_row_id
+  lib/source: source/table-defaults
+  lib/source-column-alias: _mb_row_id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Number
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - number
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - number
+  name: number
+  position: 1
+  semantic_type: type/Quantity
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: number
+  lib/desired-column-alias: number
+  lib/original-display-name: Number
+  lib/original-name: number
+  lib/source: source/table-defaults
+  lib/source-column-alias: number
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Name
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - name
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - name
+  name: name
+  position: 2
+  semantic_type: type/Name
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: name
+  lib/desired-column-alias: name
+  lib/original-display-name: Name
+  lib/original-name: name
+  lib/source: source/table-defaults
+  lib/source-column-alias: name
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Latitude
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - latitude
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - latitude
+  name: latitude
+  position: 3
+  semantic_type: type/Latitude
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: latitude
+  lib/desired-column-alias: latitude
+  lib/original-display-name: Latitude
+  lib/original-name: latitude
+  lib/source: source/table-defaults
+  lib/source-column-alias: latitude
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Longitude
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - longitude
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - longitude
+  name: longitude
+  position: 4
+  semantic_type: type/Longitude
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: longitude
+  lib/desired-column-alias: longitude
+  lib/original-display-name: Longitude
+  lib/original-name: longitude
+  lib/source: source/table-defaults
+  lib/source-column-alias: longitude
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Date
+  database_type: date
+  display_name: Last Sighting
+  effective_type: type/Date
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokemon_global_sightings_20250829153336
+    - last_sighting
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  - last_sighting
+  name: last_sighting
+  position: 5
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokemon_global_sightings_20250829153336
+  visibility_type: normal
+  lib/deduplicated-name: last_sighting
+  lib/desired-column-alias: last_sighting
+  lib/original-display-name: Last Sighting
+  lib/original-name: last_sighting
+  lib/source: source/table-defaults
+  lib/source-column-alias: last_sighting
+  metabase.lib.query/transformation-added-base-type: true
+visualization_settings:
+  column_settings: null
+card_schema: 22
+serdes/meta:
+- id: qzv_CRYKb4i82WUzd8wzc
+  label: pokemon_global_sightings
+  model: Card
+archived_directly: false
+dashboard_id: null
+document_id: null
+metabase_version: vUNKNOWN (f0aaa2f)
+source_card_id: null
+type: model

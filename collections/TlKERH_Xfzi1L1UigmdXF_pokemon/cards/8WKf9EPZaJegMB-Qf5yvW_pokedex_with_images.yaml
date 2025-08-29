@@ -1,0 +1,1359 @@
+name: Pokedex With Images
+description: null
+entity_id: 8WKf9EPZaJegMB-Qf5yvW
+created_at: '2025-08-29T15:34:39.280734Z'
+creator_id: ux-west@metabase.com
+display: table
+archived: false
+collection_id: TlKERH_Xfzi1L1UigmdXF
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- pokedex_with_images_20250829153436
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    source-table:
+    - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+  type: query
+result_metadata:
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: _mb_row_id
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - _mb_row_id
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - _mb_row_id
+  name: _mb_row_id
+  position: 0
+  semantic_type: type/PK
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: _mb_row_id
+  lib/desired-column-alias: _mb_row_id
+  lib/original-display-name: _mb_row_id
+  lib/original-name: _mb_row_id
+  lib/source: source/table-defaults
+  lib/source-column-alias: _mb_row_id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: ID
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - id
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - id
+  name: id
+  position: 1
+  semantic_type: type/PK
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: id
+  lib/desired-column-alias: id
+  lib/original-display-name: ID
+  lib/original-name: id
+  lib/source: source/table-defaults
+  lib/source-column-alias: id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: 'No'
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - 'no'
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - 'no'
+  name: 'no'
+  position: 2
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: 'no'
+  lib/desired-column-alias: 'no'
+  lib/original-display-name: 'No'
+  lib/original-name: 'no'
+  lib/source: source/table-defaults
+  lib/source-column-alias: 'no'
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Original Name
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - original_name
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - original_name
+  name: original_name
+  position: 3
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: original_name
+  lib/desired-column-alias: original_name
+  lib/original-display-name: Original Name
+  lib/original-name: original_name
+  lib/source: source/table-defaults
+  lib/source-column-alias: original_name
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Name
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - name
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - name
+  name: name
+  position: 4
+  semantic_type: type/Name
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: name
+  lib/desired-column-alias: name
+  lib/original-display-name: Name
+  lib/original-name: name
+  lib/source: source/table-defaults
+  lib/source-column-alias: name
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Generation
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - generation
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - generation
+  name: generation
+  position: 5
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: generation
+  lib/desired-column-alias: generation
+  lib/original-display-name: Generation
+  lib/original-name: generation
+  lib/source: source/table-defaults
+  lib/source-column-alias: generation
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Height
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - height
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - height
+  name: height
+  position: 6
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: height
+  lib/desired-column-alias: height
+  lib/original-display-name: Height
+  lib/original-name: height
+  lib/source: source/table-defaults
+  lib/source-column-alias: height
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Weight
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - weight
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - weight
+  name: weight
+  position: 7
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: weight
+  lib/desired-column-alias: weight
+  lib/original-display-name: Weight
+  lib/original-name: weight
+  lib/source: source/table-defaults
+  lib/source-column-alias: weight
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Type1
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - type1
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - type1
+  name: type1
+  position: 8
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: type1
+  lib/desired-column-alias: type1
+  lib/original-display-name: Type1
+  lib/original-name: type1
+  lib/source: source/table-defaults
+  lib/source-column-alias: type1
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Type2
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - type2
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - type2
+  name: type2
+  position: 9
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: type2
+  lib/desired-column-alias: type2
+  lib/original-display-name: Type2
+  lib/original-name: type2
+  lib/source: source/table-defaults
+  lib/source-column-alias: type2
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Ability1
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - ability1
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - ability1
+  name: ability1
+  position: 10
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: ability1
+  lib/desired-column-alias: ability1
+  lib/original-display-name: Ability1
+  lib/original-name: ability1
+  lib/source: source/table-defaults
+  lib/source-column-alias: ability1
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Ability2
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - ability2
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - ability2
+  name: ability2
+  position: 11
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: ability2
+  lib/desired-column-alias: ability2
+  lib/original-display-name: Ability2
+  lib/original-name: ability2
+  lib/source: source/table-defaults
+  lib/source-column-alias: ability2
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Ability Hidden
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - ability_hidden
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - ability_hidden
+  name: ability_hidden
+  position: 12
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: ability_hidden
+  lib/desired-column-alias: ability_hidden
+  lib/original-display-name: Ability Hidden
+  lib/original-name: ability_hidden
+  lib/source: source/table-defaults
+  lib/source-column-alias: ability_hidden
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Color
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - color
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - color
+  name: color
+  position: 13
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: color
+  lib/desired-column-alias: color
+  lib/original-display-name: Color
+  lib/original-name: color
+  lib/source: source/table-defaults
+  lib/source-column-alias: color
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Gender Male
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - gender_male
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - gender_male
+  name: gender_male
+  position: 14
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: gender_male
+  lib/desired-column-alias: gender_male
+  lib/original-display-name: Gender Male
+  lib/original-name: gender_male
+  lib/source: source/table-defaults
+  lib/source-column-alias: gender_male
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Gender Female
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - gender_female
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - gender_female
+  name: gender_female
+  position: 15
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: gender_female
+  lib/desired-column-alias: gender_female
+  lib/original-display-name: Gender Female
+  lib/original-name: gender_female
+  lib/source: source/table-defaults
+  lib/source-column-alias: gender_female
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Gender Unknown
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - gender_unknown
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - gender_unknown
+  name: gender_unknown
+  position: 16
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: gender_unknown
+  lib/desired-column-alias: gender_unknown
+  lib/original-display-name: Gender Unknown
+  lib/original-name: gender_unknown
+  lib/source: source/table-defaults
+  lib/source-column-alias: gender_unknown
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Egg Steps
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - egg_steps
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - egg_steps
+  name: egg_steps
+  position: 17
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: egg_steps
+  lib/desired-column-alias: egg_steps
+  lib/original-display-name: Egg Steps
+  lib/original-name: egg_steps
+  lib/source: source/table-defaults
+  lib/source-column-alias: egg_steps
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Egg Group1
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - egg_group1
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - egg_group1
+  name: egg_group1
+  position: 18
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: egg_group1
+  lib/desired-column-alias: egg_group1
+  lib/original-display-name: Egg Group1
+  lib/original-name: egg_group1
+  lib/source: source/table-defaults
+  lib/source-column-alias: egg_group1
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Egg Group2
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - egg_group2
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - egg_group2
+  name: egg_group2
+  position: 19
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: egg_group2
+  lib/desired-column-alias: egg_group2
+  lib/original-display-name: Egg Group2
+  lib/original-name: egg_group2
+  lib/source: source/table-defaults
+  lib/source-column-alias: egg_group2
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Get Rate
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - get_rate
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - get_rate
+  name: get_rate
+  position: 20
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: get_rate
+  lib/desired-column-alias: get_rate
+  lib/original-display-name: Get Rate
+  lib/original-name: get_rate
+  lib/source: source/table-defaults
+  lib/source-column-alias: get_rate
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Base Experience
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - base_experience
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - base_experience
+  name: base_experience
+  position: 21
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: base_experience
+  lib/desired-column-alias: base_experience
+  lib/original-display-name: Base Experience
+  lib/original-name: base_experience
+  lib/source: source/table-defaults
+  lib/source-column-alias: base_experience
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Experience Type
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - experience_type
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - experience_type
+  name: experience_type
+  position: 22
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: experience_type
+  lib/desired-column-alias: experience_type
+  lib/original-display-name: Experience Type
+  lib/original-name: experience_type
+  lib/source: source/table-defaults
+  lib/source-column-alias: experience_type
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Category
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - category
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - category
+  name: category
+  position: 23
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: category
+  lib/desired-column-alias: category
+  lib/original-display-name: Category
+  lib/original-name: category
+  lib/source: source/table-defaults
+  lib/source-column-alias: category
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Mega Evolution Flag
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - mega_evolution_flag
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - mega_evolution_flag
+  name: mega_evolution_flag
+  position: 24
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: mega_evolution_flag
+  lib/desired-column-alias: mega_evolution_flag
+  lib/original-display-name: Mega Evolution Flag
+  lib/original-name: mega_evolution_flag
+  lib/source: source/table-defaults
+  lib/source-column-alias: mega_evolution_flag
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Region Form
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - region_form
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - region_form
+  name: region_form
+  position: 25
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: region_form
+  lib/desired-column-alias: region_form
+  lib/original-display-name: Region Form
+  lib/original-name: region_form
+  lib/source: source/table-defaults
+  lib/source-column-alias: region_form
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Hp
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - hp
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - hp
+  name: hp
+  position: 26
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: hp
+  lib/desired-column-alias: hp
+  lib/original-display-name: Hp
+  lib/original-name: hp
+  lib/source: source/table-defaults
+  lib/source-column-alias: hp
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Attack
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - attack
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - attack
+  name: attack
+  position: 27
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: attack
+  lib/desired-column-alias: attack
+  lib/original-display-name: Attack
+  lib/original-name: attack
+  lib/source: source/table-defaults
+  lib/source-column-alias: attack
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Defense
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - defense
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - defense
+  name: defense
+  position: 28
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: defense
+  lib/desired-column-alias: defense
+  lib/original-display-name: Defense
+  lib/original-name: defense
+  lib/source: source/table-defaults
+  lib/source-column-alias: defense
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Sp Attack
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - sp_attack
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - sp_attack
+  name: sp_attack
+  position: 29
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: sp_attack
+  lib/desired-column-alias: sp_attack
+  lib/original-display-name: Sp Attack
+  lib/original-name: sp_attack
+  lib/source: source/table-defaults
+  lib/source-column-alias: sp_attack
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Sp Defense
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - sp_defense
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - sp_defense
+  name: sp_defense
+  position: 30
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: sp_defense
+  lib/desired-column-alias: sp_defense
+  lib/original-display-name: Sp Defense
+  lib/original-name: sp_defense
+  lib/source: source/table-defaults
+  lib/source-column-alias: sp_defense
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Speed
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - speed
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - speed
+  name: speed
+  position: 31
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: speed
+  lib/desired-column-alias: speed
+  lib/original-display-name: Speed
+  lib/original-name: speed
+  lib/source: source/table-defaults
+  lib/source-column-alias: speed
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: Total
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - total
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - total
+  name: total
+  position: 32
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: total
+  lib/desired-column-alias: total
+  lib/original-display-name: Total
+  lib/original-name: total
+  lib/source: source/table-defaults
+  lib/source-column-alias: total
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Hp
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_hp
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_hp
+  name: e_hp
+  position: 33
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_hp
+  lib/desired-column-alias: e_hp
+  lib/original-display-name: E Hp
+  lib/original-name: e_hp
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_hp
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Attack
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_attack
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_attack
+  name: e_attack
+  position: 34
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_attack
+  lib/desired-column-alias: e_attack
+  lib/original-display-name: E Attack
+  lib/original-name: e_attack
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_attack
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Defense
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_defense
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_defense
+  name: e_defense
+  position: 35
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_defense
+  lib/desired-column-alias: e_defense
+  lib/original-display-name: E Defense
+  lib/original-name: e_defense
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_defense
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Sp Attack
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_sp_attack
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_sp_attack
+  name: e_sp_attack
+  position: 36
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_sp_attack
+  lib/desired-column-alias: e_sp_attack
+  lib/original-display-name: E Sp Attack
+  lib/original-name: e_sp_attack
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_sp_attack
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Sp Defense
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_sp_defense
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_sp_defense
+  name: e_sp_defense
+  position: 37
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_sp_defense
+  lib/desired-column-alias: e_sp_defense
+  lib/original-display-name: E Sp Defense
+  lib/original-name: e_sp_defense
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_sp_defense
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: E Speed
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - e_speed
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - e_speed
+  name: e_speed
+  position: 38
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: e_speed
+  lib/desired-column-alias: e_speed
+  lib/original-display-name: E Speed
+  lib/original-name: e_speed
+  lib/source: source/table-defaults
+  lib/source-column-alias: e_speed
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Image Small
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - image_small
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - image_small
+  name: image_small
+  position: 39
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: image_small
+  lib/desired-column-alias: image_small
+  lib/original-display-name: Image Small
+  lib/original-name: image_small
+  lib/source: source/table-defaults
+  lib/source-column-alias: image_small
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Image Large
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - pokedex_with_images_20250829153436
+    - image_large
+  - null
+  id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  - image_large
+  name: image_large
+  position: 40
+  source: fields
+  table_id:
+  - Postgres 13
+  - public
+  - pokedex_with_images_20250829153436
+  visibility_type: normal
+  lib/deduplicated-name: image_large
+  lib/desired-column-alias: image_large
+  lib/original-display-name: Image Large
+  lib/original-name: image_large
+  lib/source: source/table-defaults
+  lib/source-column-alias: image_large
+  metabase.lib.query/transformation-added-base-type: true
+visualization_settings:
+  column_settings: null
+card_schema: 22
+serdes/meta:
+- id: 8WKf9EPZaJegMB-Qf5yvW
+  label: pokedex_with_images
+  model: Card
+archived_directly: false
+dashboard_id: null
+document_id: null
+metabase_version: vUNKNOWN (f0aaa2f)
+source_card_id: null
+type: model

@@ -1,0 +1,41 @@
+name: last_sighting
+display_name: Last Sighting
+description: null
+created_at: '2025-08-29T15:33:38.948058Z'
+active: true
+visibility_type: normal
+table_id:
+- Postgres 13
+- public
+- pokemon_global_sightings_20250829153336
+database_type: date
+base_type: type/Date
+effective_type: type/Date
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 5
+custom_position: 0
+database_position: 5
+has_field_values: null
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: Postgres 13
+  model: Database
+- id: public
+  model: Schema
+- id: pokemon_global_sightings_20250829153336
+  model: Table
+- id: last_sighting
+  model: Field
+database_indexed: null
+database_partitioned: null

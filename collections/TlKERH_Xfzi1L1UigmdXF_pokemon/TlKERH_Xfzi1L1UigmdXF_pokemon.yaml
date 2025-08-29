@@ -1,0 +1,18 @@
+name: Pokemon
+description: null
+entity_id: TlKERH_Xfzi1L1UigmdXF
+slug: pokemon
+created_at: '2025-08-29T15:33:26.412028Z'
+archived: false
+type: null
+parent_id: null
+personal_owner_id: null
+namespace: null
+authority_level: null
+serdes/meta:
+- id: TlKERH_Xfzi1L1UigmdXF
+  label: pokemon
+  model: Collection
+archive_operation_id: null
+archived_directly: null
+is_sample: false

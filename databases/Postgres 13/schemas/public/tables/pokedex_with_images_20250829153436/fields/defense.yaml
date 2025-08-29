@@ -1,0 +1,41 @@
+name: defense
+display_name: Defense
+description: null
+created_at: '2025-08-29T15:34:39.209629Z'
+active: true
+visibility_type: normal
+table_id:
+- Postgres 13
+- public
+- pokedex_with_images_20250829153436
+database_type: int8
+base_type: type/BigInteger
+effective_type: type/BigInteger
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 28
+custom_position: 0
+database_position: 28
+has_field_values: auto-list
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: Postgres 13
+  model: Database
+- id: public
+  model: Schema
+- id: pokedex_with_images_20250829153436
+  model: Table
+- id: defense
+  model: Field
+database_indexed: null
+database_partitioned: null

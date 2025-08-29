@@ -32,7 +32,8 @@ dataset_query:
         - orders
         - created_at
       - base-type: type/DateTime
-        temporal-unit: month
+        temporal-unit: quarter
+        original-temporal-unit: month
     source-table:
     - Postgres 13
     - public
@@ -43,7 +44,7 @@ result_metadata:
   base_type: type/DateTime
   database_type: timestamp
   description: The date and time an order was submitted.
-  display_name: 'Created At: Month'
+  display_name: 'Created At: Quarter'
   effective_type: type/DateTime
   field_ref:
   - field
@@ -52,13 +53,14 @@ result_metadata:
     - orders
     - created_at
   - base-type: type/DateTime
-    temporal-unit: month
+    temporal-unit: quarter
+    original-temporal-unit: month
   id:
   - Postgres 13
   - public
   - orders
   - created_at
-  inherited_temporal_unit: month
+  inherited_temporal_unit: quarter
   name: created_at
   position: 7
   semantic_type: type/CreationTimestamp
@@ -67,7 +69,7 @@ result_metadata:
   - Postgres 13
   - public
   - orders
-  unit: month
+  unit: quarter
   visibility_type: normal
   lib/breakout?: true
   lib/deduplicated-name: created_at
@@ -76,11 +78,10 @@ result_metadata:
   lib/original-name: created_at
   lib/source: source/table-defaults
   lib/source-column-alias: created_at
-  metabase.lib.field/temporal-unit: month
-- base_type: type/BigInteger
-  database_type: int8
+  metabase.lib.field/temporal-unit: quarter
+- base_type: type/Integer
   display_name: Count
-  effective_type: type/BigInteger
+  effective_type: type/Integer
   field_ref:
   - aggregation
   - 0
