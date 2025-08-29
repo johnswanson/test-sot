@@ -1,0 +1,27 @@
+name: iframe_survey
+display_name: Iframe Survey
+description: null
+created_at: '2025-08-29T15:30:23.139881Z'
+db_id: Postgres 13
+schema: hackathon
+entity_type: entity/GenericTable
+active: true
+is_upload: false
+field_order: database
+visibility_type: null
+show_in_getting_started: false
+initial_sync_status: complete
+points_of_interest: null
+caveats: null
+serdes/meta:
+- id: Postgres 13
+  model: Database
+- id: hackathon
+  model: Schema
+- id: iframe_survey
+  model: Table
+archived_at: null
+data_authority: unconfigured
+database_require_filter: null
+deactivated_at: null
+is_writable: true

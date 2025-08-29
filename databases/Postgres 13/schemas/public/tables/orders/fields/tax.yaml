@@ -1,0 +1,41 @@
+name: tax
+display_name: Tax
+description: This is the amount of local and federal taxes that are collected on the purchase. Note that other governmental fees on some products are not included here, but instead are accounted for in the subtotal.
+created_at: '2025-08-29T15:30:24.697705Z'
+active: true
+visibility_type: normal
+table_id:
+- Postgres 13
+- public
+- orders
+database_type: float8
+base_type: type/Float
+effective_type: type/Float
+semantic_type: null
+database_is_auto_increment: false
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 4
+custom_position: 0
+database_position: 4
+has_field_values: null
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: Postgres 13
+  model: Database
+- id: public
+  model: Schema
+- id: orders
+  model: Table
+- id: tax
+  model: Field
+database_indexed: null
+database_partitioned: null

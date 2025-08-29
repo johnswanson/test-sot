@@ -1,0 +1,33 @@
+name: Postgres 13
+description: null
+engine: postgres
+dbms_version:
+  flavor: PostgreSQL
+  version: '13.20'
+  semantic-version:
+  - 13
+  - 20
+created_at: '2025-08-29T15:30:20.910575Z'
+creator_id: ux-west@metabase.com
+timezone: GMT
+auto_run_queries: true
+refingerprint: null
+is_full_sync: true
+is_on_demand: false
+is_sample: false
+is_audit: false
+is_attached_dwh: false
+metadata_sync_schedule: 0 31 * * * ? *
+cache_field_values_schedule: 0 0 11 * * ? *
+settings: null
+caveats: null
+points_of_interest: null
+initial_sync_status: complete
+serdes/meta:
+- id: Postgres 13
+  model: Database
+provider_name: Amazon RDS
+router_database_id: null
+uploads_enabled: false
+uploads_schema_name: null
+uploads_table_prefix: null
