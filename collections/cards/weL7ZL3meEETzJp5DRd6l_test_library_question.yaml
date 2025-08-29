@@ -1,4 +1,4 @@
-name: MY question
+name: Test library question
 description: null
 entity_id: weL7ZL3meEETzJp5DRd6l
 created_at: '2025-08-29T15:35:16.678847Z'
@@ -79,9 +79,10 @@ result_metadata:
   lib/source: source/table-defaults
   lib/source-column-alias: created_at
   metabase.lib.field/temporal-unit: quarter
-- base_type: type/Integer
+- base_type: type/BigInteger
+  database_type: int8
   display_name: Count
-  effective_type: type/Integer
+  effective_type: type/BigInteger
   field_ref:
   - aggregation
   - 0
@@ -103,7 +104,7 @@ visualization_settings:
 card_schema: 22
 serdes/meta:
 - id: weL7ZL3meEETzJp5DRd6l
-  label: my_question
+  label: test_library_question
   model: Card
 archived_directly: false
 dashboard_id: null
