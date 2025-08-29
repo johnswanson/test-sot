@@ -1,7 +1,7 @@
 name: CREATED_AT
 display_name: Created At
 description: The date the user record was created. Also referred to as the user’s "join date"
-created_at: '2025-08-28T14:03:17.803795Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 active: true
 visibility_type: normal
 table_id:
@@ -37,5 +37,5 @@ serdes/meta:
   model: Table
 - id: CREATED_AT
   model: Field
-database_indexed: null
+database_indexed: false
 database_partitioned: null

@@ -1,0 +1,18 @@
+name: E-commerce
+description: Questions and metrics used for the parent dashboard
+entity_id: 54O0IbgCzm290Nnxf1wRH
+slug: e_commerce
+created_at: '2025-08-26T21:26:17.037705Z'
+archived: true
+type: null
+parent_id: HyB3nRtqb7pBPhFG26evI
+personal_owner_id: null
+namespace: null
+authority_level: null
+serdes/meta:
+- id: 54O0IbgCzm290Nnxf1wRH
+  label: e_commerce
+  model: Collection
+archive_operation_id: 1e52f2e4-1304-4e09-9e0e-1dce5ea843af
+archived_directly: true
+is_sample: false

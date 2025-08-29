@@ -1,7 +1,7 @@
 name: PRODUCTS
 display_name: Products
 description: Includes a catalog of all the products ever sold by the famed Sample Company.
-created_at: '2025-08-28T14:03:17.592382Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 db_id: Sample Database
 schema: PUBLIC
 entity_type: entity/ProductTable
@@ -21,7 +21,7 @@ serdes/meta:
 - id: PRODUCTS
   model: Table
 archived_at: null
-data_authority: ingested
+data_authority: unconfigured
 database_require_filter: null
 deactivated_at: null
-is_writable: true
+is_writable: null

@@ -1,9 +1,0 @@
-built_in_type: null
-created_at: '2025-08-28T14:03:14.794896Z'
-entity_id: DeeJHc81qKhD9qWINISO8
-name: '{:args [], :format-string monthly, :pluralization-opts {}}'
-updated_at: '2025-08-28T14:03:14.794896Z'
-serdes/meta:
-- id: DeeJHc81qKhD9qWINISO8
-  label: __args______format_string_monthly___pluralization_opts____
-  model: TransformTag

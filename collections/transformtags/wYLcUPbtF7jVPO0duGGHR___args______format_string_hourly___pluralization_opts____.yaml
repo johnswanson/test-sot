@@ -1,9 +1,0 @@
-built_in_type: null
-created_at: '2025-08-28T14:03:14.794896Z'
-entity_id: wYLcUPbtF7jVPO0duGGHR
-name: '{:args [], :format-string hourly, :pluralization-opts {}}'
-updated_at: '2025-08-28T14:03:14.794896Z'
-serdes/meta:
-- id: wYLcUPbtF7jVPO0duGGHR
-  label: __args______format_string_hourly___pluralization_opts____
-  model: TransformTag

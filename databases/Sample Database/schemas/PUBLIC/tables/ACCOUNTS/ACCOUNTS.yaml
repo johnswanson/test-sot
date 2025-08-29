@@ -1,7 +1,7 @@
 name: ACCOUNTS
 display_name: Accounts
 description: Information on customer accounts registered with Piespace. Each account represents a new organization signing up for on-demand pies.
-created_at: '2025-08-28T14:03:17.612983Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 db_id: Sample Database
 schema: PUBLIC
 entity_type: entity/UserTable
@@ -21,7 +21,7 @@ serdes/meta:
 - id: ACCOUNTS
   model: Table
 archived_at: null
-data_authority: ingested
+data_authority: unconfigured
 database_require_filter: null
 deactivated_at: null
-is_writable: true
+is_writable: null

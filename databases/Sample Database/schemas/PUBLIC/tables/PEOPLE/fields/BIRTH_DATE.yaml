@@ -1,7 +1,7 @@
 name: BIRTH_DATE
 display_name: Birth Date
 description: The date of birth of the user
-created_at: '2025-08-28T14:03:17.803795Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 active: true
 visibility_type: normal
 table_id:
@@ -37,5 +37,5 @@ serdes/meta:
   model: Table
 - id: BIRTH_DATE
   model: Field
-database_indexed: null
+database_indexed: false
 database_partitioned: null

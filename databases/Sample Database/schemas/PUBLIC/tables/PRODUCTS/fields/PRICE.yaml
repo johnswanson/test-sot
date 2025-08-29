@@ -1,7 +1,7 @@
 name: PRICE
 display_name: Price
 description: The list price of the product. Note that this is not always the price the product sold for due to discounts, promotions, etc.
-created_at: '2025-08-28T14:03:17.823517Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 active: true
 visibility_type: normal
 table_id:
@@ -37,5 +37,5 @@ serdes/meta:
   model: Table
 - id: PRICE
   model: Field
-database_indexed: null
+database_indexed: false
 database_partitioned: null

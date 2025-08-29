@@ -1,7 +1,7 @@
 name: FEEDBACK
 display_name: Feedback
 description: With each order of pies sent out, Piespace includes a place for customers to submit feedback and review their order.
-created_at: '2025-08-28T14:03:17.496297Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 db_id: Sample Database
 schema: PUBLIC
 entity_type: entity/GenericTable
@@ -21,7 +21,7 @@ serdes/meta:
 - id: FEEDBACK
   model: Table
 archived_at: null
-data_authority: ingested
+data_authority: unconfigured
 database_require_filter: null
 deactivated_at: null
-is_writable: true
+is_writable: null

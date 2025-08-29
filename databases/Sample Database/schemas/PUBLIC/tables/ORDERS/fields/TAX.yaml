@@ -1,7 +1,7 @@
 name: TAX
 display_name: Tax
 description: This is the amount of local and federal taxes that are collected on the purchase. Note that other governmental fees on some products are not included here, but instead are accounted for in the subtotal.
-created_at: '2025-08-28T14:03:17.792085Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 active: true
 visibility_type: normal
 table_id:
@@ -37,5 +37,5 @@ serdes/meta:
   model: Table
 - id: TAX
   model: Field
-database_indexed: null
+database_indexed: false
 database_partitioned: null

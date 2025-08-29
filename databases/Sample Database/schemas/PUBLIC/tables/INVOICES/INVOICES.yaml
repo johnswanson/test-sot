@@ -1,7 +1,7 @@
 name: INVOICES
 display_name: Invoices
 description: Confirmed payments from Piespace’s customers. Most accounts pay for their pie subscription on a monthly basis.
-created_at: '2025-08-28T14:03:17.568601Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 db_id: Sample Database
 schema: PUBLIC
 entity_type: entity/GenericTable
@@ -21,7 +21,7 @@ serdes/meta:
 - id: INVOICES
   model: Table
 archived_at: null
-data_authority: ingested
+data_authority: unconfigured
 database_require_filter: null
 deactivated_at: null
-is_writable: true
+is_writable: null

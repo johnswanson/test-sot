@@ -1,7 +1,7 @@
 name: ANALYTIC_EVENTS
 display_name: Analytic Events
 description: Piespace does some anonymous analytics tracking on how users interact with their platform. They’ve only had time to implement a few events, but you know how it is. Pies come first.
-created_at: '2025-08-28T14:03:17.515113Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 db_id: Sample Database
 schema: PUBLIC
 entity_type: entity/EventTable
@@ -21,7 +21,7 @@ serdes/meta:
 - id: ANALYTIC_EVENTS
   model: Table
 archived_at: null
-data_authority: ingested
+data_authority: unconfigured
 database_require_filter: null
 deactivated_at: null
-is_writable: true
+is_writable: null

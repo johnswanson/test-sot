@@ -7,9 +7,9 @@ dbms_version:
   semantic-version:
   - 2
   - 1
-created_at: '2025-08-28T14:03:17.105344Z'
+created_at: '2025-08-26T21:26:17.037705Z'
 creator_id: null
-timezone: UTC
+timezone: GMT
 auto_run_queries: true
 refingerprint: null
 is_full_sync: true
@@ -17,8 +17,8 @@ is_on_demand: false
 is_sample: true
 is_audit: false
 is_attached_dwh: false
-metadata_sync_schedule: 0 33 * * * ? *
-cache_field_values_schedule: 0 0 13 * * ? *
+metadata_sync_schedule: 0 28 * * * ? *
+cache_field_values_schedule: 0 0 5 * * ? *
 settings: null
 caveats: You probably don't want to use this for your business-critical analyses, but hey, it's your world, we're just living in it.
 points_of_interest: You can find all sorts of different joinable tables ranging from products to people to reviews here.
