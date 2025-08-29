@@ -102,7 +102,7 @@ visualization_settings:
 card_schema: 22
 serdes/meta:
 - id: OBf5zZxY8mZmstPmtc0fN
-  label: a_renamed_api_key_question
+  label: cool_name
   model: Card
 archived_directly: false
 dashboard_id: null

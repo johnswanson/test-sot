@@ -1,0 +1,41 @@
+name: id
+display_name: ID
+description: null
+created_at: '2025-08-29T13:34:02.019979Z'
+active: true
+visibility_type: normal
+table_id:
+- AppDB
+- public
+- search_index__0miusldupc90quu2noh6d
+database_type: int8
+base_type: type/BigInteger
+effective_type: type/BigInteger
+semantic_type: type/PK
+database_is_auto_increment: true
+database_required: false
+fk_target_field_id: null
+dimensions: []
+json_unfolding: false
+parent_id: null
+coercion_strategy: null
+preview_display: true
+position: 0
+custom_position: 0
+database_position: 0
+has_field_values: null
+settings: null
+caveats: null
+points_of_interest: null
+nfc_path: null
+serdes/meta:
+- id: AppDB
+  model: Database
+- id: public
+  model: Schema
+- id: search_index__0miusldupc90quu2noh6d
+  model: Table
+- id: id
+  model: Field
+database_indexed: null
+database_partitioned: null
