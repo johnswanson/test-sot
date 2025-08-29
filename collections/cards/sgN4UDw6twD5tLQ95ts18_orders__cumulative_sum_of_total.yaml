@@ -1,0 +1,67 @@
+name: Orders, Cumulative sum of Total
+description: null
+entity_id: sgN4UDw6twD5tLQ95ts18
+created_at: '2025-08-29T15:15:04.817055Z'
+creator_id: ux-west@metabase.com
+display: scalar
+archived: false
+collection_id: null
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Sample Database
+table_id:
+- Sample Database
+- PUBLIC
+- ORDERS
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Sample Database
+  query:
+    aggregation:
+    - - cum-sum
+      - - field
+        - - Sample Database
+          - PUBLIC
+          - ORDERS
+          - TOTAL
+        - base-type: type/Float
+    source-table:
+    - Sample Database
+    - PUBLIC
+    - ORDERS
+  type: query
+result_metadata:
+- base_type: type/Float
+  database_type: DECFLOAT
+  display_name: Cumulative sum of Total
+  effective_type: type/Float
+  field_ref:
+  - aggregation
+  - 0
+  name: sum
+  semantic_type: null
+  source: aggregation
+  lib/deduplicated-name: sum
+  lib/desired-column-alias: sum
+  lib/original-name: sum
+  lib/source: source/aggregations
+  lib/source-column-alias: sum
+visualization_settings:
+  column_settings: null
+card_schema: 22
+serdes/meta:
+- id: sgN4UDw6twD5tLQ95ts18
+  label: orders__cumulative_sum_of_total
+  model: Card
+archived_directly: false
+dashboard_id: null
+document_id: null
+metabase_version: vUNKNOWN (f0aaa2f)
+source_card_id: null
+type: question
