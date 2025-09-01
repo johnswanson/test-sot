@@ -1,0 +1,18 @@
+name: Customer 2
+description: null
+entity_id: Ks7jIlNi5DhOQiI3HvWo-
+slug: customer_2
+created_at: '2025-09-01T16:57:14.332327Z'
+archived: false
+type: null
+parent_id: null
+personal_owner_id: null
+namespace: null
+authority_level: null
+serdes/meta:
+- id: Ks7jIlNi5DhOQiI3HvWo-
+  label: customer_2
+  model: Collection
+archive_operation_id: null
+archived_directly: null
+is_sample: false
