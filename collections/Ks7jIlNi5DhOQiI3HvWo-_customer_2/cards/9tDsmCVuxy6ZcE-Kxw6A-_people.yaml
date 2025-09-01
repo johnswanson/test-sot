@@ -1,0 +1,469 @@
+name: People
+description: null
+entity_id: 9tDsmCVuxy6ZcE-Kxw6A-
+created_at: '2025-09-01T16:57:58.192051Z'
+creator_id: ux-west@metabase.com
+display: table
+archived: false
+collection_id: Ks7jIlNi5DhOQiI3HvWo-
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- duckdb
+- people
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    source-table:
+    - Postgres 13
+    - duckdb
+    - people
+  type: query
+result_metadata:
+- active: true
+  base_type: type/BigInteger
+  database_type: int8
+  display_name: ID
+  effective_type: type/BigInteger
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - id
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - id
+  name: id
+  position: 0
+  semantic_type: type/PK
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: id
+  lib/desired-column-alias: id
+  lib/original-display-name: ID
+  lib/original-name: id
+  lib/source: source/table-defaults
+  lib/source-column-alias: id
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Address
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - address
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - address
+  name: address
+  position: 1
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: address
+  lib/desired-column-alias: address
+  lib/original-display-name: Address
+  lib/original-name: address
+  lib/source: source/table-defaults
+  lib/source-column-alias: address
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Email
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - email
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - email
+  name: email
+  position: 2
+  semantic_type: type/Email
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: email
+  lib/desired-column-alias: email
+  lib/original-display-name: Email
+  lib/original-name: email
+  lib/source: source/table-defaults
+  lib/source-column-alias: email
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Password
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - password
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - password
+  name: password
+  position: 3
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: password
+  lib/desired-column-alias: password
+  lib/original-display-name: Password
+  lib/original-name: password
+  lib/source: source/table-defaults
+  lib/source-column-alias: password
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Name
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - name
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - name
+  name: name
+  position: 4
+  semantic_type: type/Name
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: name
+  lib/desired-column-alias: name
+  lib/original-display-name: Name
+  lib/original-name: name
+  lib/source: source/table-defaults
+  lib/source-column-alias: name
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: City
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - city
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - city
+  name: city
+  position: 5
+  semantic_type: type/City
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: city
+  lib/desired-column-alias: city
+  lib/original-display-name: City
+  lib/original-name: city
+  lib/source: source/table-defaults
+  lib/source-column-alias: city
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Longitude
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - longitude
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - longitude
+  name: longitude
+  position: 6
+  semantic_type: type/Longitude
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: longitude
+  lib/desired-column-alias: longitude
+  lib/original-display-name: Longitude
+  lib/original-name: longitude
+  lib/source: source/table-defaults
+  lib/source-column-alias: longitude
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: bpchar
+  display_name: State
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - state
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - state
+  name: state
+  position: 7
+  semantic_type: type/State
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: state
+  lib/desired-column-alias: state
+  lib/original-display-name: State
+  lib/original-name: state
+  lib/source: source/table-defaults
+  lib/source-column-alias: state
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  display_name: Source
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - source
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - source
+  name: source
+  position: 8
+  semantic_type: type/Source
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: source
+  lib/desired-column-alias: source
+  lib/original-display-name: Source
+  lib/original-name: source
+  lib/source: source/table-defaults
+  lib/source-column-alias: source
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Date
+  database_type: date
+  display_name: Birth Date
+  effective_type: type/Date
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - birth_date
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - birth_date
+  name: birth_date
+  position: 9
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: birth_date
+  lib/desired-column-alias: birth_date
+  lib/original-display-name: Birth Date
+  lib/original-name: birth_date
+  lib/source: source/table-defaults
+  lib/source-column-alias: birth_date
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Text
+  database_type: bpchar
+  display_name: Zip
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - zip
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - zip
+  name: zip
+  position: 10
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: zip
+  lib/desired-column-alias: zip
+  lib/original-display-name: Zip
+  lib/original-name: zip
+  lib/source: source/table-defaults
+  lib/source-column-alias: zip
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/Float
+  database_type: float8
+  display_name: Latitude
+  effective_type: type/Float
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - latitude
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - latitude
+  name: latitude
+  position: 11
+  semantic_type: type/Latitude
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: latitude
+  lib/desired-column-alias: latitude
+  lib/original-display-name: Latitude
+  lib/original-name: latitude
+  lib/source: source/table-defaults
+  lib/source-column-alias: latitude
+  metabase.lib.query/transformation-added-base-type: true
+- active: true
+  base_type: type/DateTime
+  database_type: timestamp
+  display_name: Created At
+  effective_type: type/DateTime
+  field_ref:
+  - field
+  - - Postgres 13
+    - duckdb
+    - people
+    - created_at
+  - null
+  id:
+  - Postgres 13
+  - duckdb
+  - people
+  - created_at
+  name: created_at
+  position: 12
+  semantic_type: type/CreationTimestamp
+  source: fields
+  table_id:
+  - Postgres 13
+  - duckdb
+  - people
+  visibility_type: normal
+  lib/deduplicated-name: created_at
+  lib/desired-column-alias: created_at
+  lib/original-display-name: Created At
+  lib/original-name: created_at
+  lib/source: source/table-defaults
+  lib/source-column-alias: created_at
+  metabase.lib.query/transformation-added-base-type: true
+visualization_settings:
+  column_settings: null
+card_schema: 22
+serdes/meta:
+- id: 9tDsmCVuxy6ZcE-Kxw6A-
+  label: people
+  model: Card
+archived_directly: false
+dashboard_id: null
+document_id: null
+metabase_version: vUNKNOWN (cb46d2e)
+source_card_id: null
+type: question

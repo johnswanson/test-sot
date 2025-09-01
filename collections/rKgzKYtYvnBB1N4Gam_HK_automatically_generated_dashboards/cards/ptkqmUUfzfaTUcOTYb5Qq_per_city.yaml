@@ -1,0 +1,110 @@
+name: Per City
+description: null
+entity_id: ptkqmUUfzfaTUcOTYb5Qq
+created_at: '2025-09-01T14:40:13.713041Z'
+creator_id: ux-west@metabase.com
+display: table
+archived: false
+collection_id: rKgzKYtYvnBB1N4Gam_HK
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- people
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    aggregation:
+    - - count
+    breakout:
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - base-type: type/Text
+    source-table:
+    - Postgres 13
+    - public
+    - people
+  type: query
+result_metadata:
+- active: true
+  base_type: type/Text
+  database_type: varchar
+  description: The city of the account’s billing address
+  display_name: City
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - people
+    - city
+  - base-type: type/Text
+  id:
+  - Postgres 13
+  - public
+  - people
+  - city
+  name: city
+  position: 5
+  semantic_type: type/City
+  source: breakout
+  table_id:
+  - Postgres 13
+  - public
+  - people
+  visibility_type: normal
+  lib/breakout?: true
+  lib/deduplicated-name: city
+  lib/desired-column-alias: city
+  lib/original-display-name: City
+  lib/original-name: city
+  lib/source: source/table-defaults
+  lib/source-column-alias: city
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings:
+    '["name","null"]':
+      show_mini_bar: true
+  graph.dimensions:
+  - city
+  graph.metrics:
+  - count
+  graph.series_labels:
+  - null
+card_schema: 22
+serdes/meta:
+- id: ptkqmUUfzfaTUcOTYb5Qq
+  label: per_city
+  model: Card
+archived_directly: false
+dashboard_id: _5JCzYxTrYTRfJya6Onhv
+document_id: null
+metabase_version: vUNKNOWN (cb46d2e)
+source_card_id: null
+type: question

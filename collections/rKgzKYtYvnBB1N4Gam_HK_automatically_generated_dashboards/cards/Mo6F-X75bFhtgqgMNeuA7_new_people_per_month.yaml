@@ -1,0 +1,115 @@
+name: New People per month
+description: null
+entity_id: Mo6F-X75bFhtgqgMNeuA7
+created_at: '2025-09-01T14:40:13.501186Z'
+creator_id: ux-west@metabase.com
+display: line
+archived: false
+collection_id: rKgzKYtYvnBB1N4Gam_HK
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- people
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    aggregation:
+    - - count
+    breakout:
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - base-type: type/DateTime
+        temporal-unit: month
+    source-table:
+    - Postgres 13
+    - public
+    - people
+  type: query
+result_metadata:
+- active: true
+  base_type: type/DateTime
+  database_type: timestamp
+  description: The date the user record was created. Also referred to as the user’s "join date"
+  display_name: 'Created At: Month'
+  effective_type: type/DateTime
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - people
+    - created_at
+  - base-type: type/DateTime
+    temporal-unit: month
+  id:
+  - Postgres 13
+  - public
+  - people
+  - created_at
+  inherited_temporal_unit: month
+  name: created_at
+  position: 12
+  semantic_type: type/CreationTimestamp
+  source: breakout
+  table_id:
+  - Postgres 13
+  - public
+  - people
+  unit: month
+  visibility_type: normal
+  lib/breakout?: true
+  lib/deduplicated-name: created_at
+  lib/desired-column-alias: created_at
+  lib/original-display-name: Created At
+  lib/original-name: created_at
+  lib/source: source/table-defaults
+  lib/source-column-alias: created_at
+  metabase.lib.field/temporal-unit: month
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+  graph.colors:
+  - '#F9D45C'
+  graph.dimensions:
+  - created_at
+  graph.metrics:
+  - count
+  graph.series_labels:
+  - null
+card_schema: 22
+serdes/meta:
+- id: Mo6F-X75bFhtgqgMNeuA7
+  label: new_people_per_month
+  model: Card
+archived_directly: false
+dashboard_id: _5JCzYxTrYTRfJya6Onhv
+document_id: null
+metabase_version: vUNKNOWN (cb46d2e)
+source_card_id: null
+type: question
