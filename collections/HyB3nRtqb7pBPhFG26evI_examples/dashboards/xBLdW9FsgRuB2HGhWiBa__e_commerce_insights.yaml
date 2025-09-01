@@ -310,41 +310,6 @@ dashcards:
     model: DashboardTab
   - id: WD8BNj-NyWXaWuFghZNDU
     model: DashboardCard
-- entity_id: NZSFQPtNkT7fLZeeW9Oo0
-  card_id: null
-  created_at: '2025-08-26T21:26:17.037705Z'
-  row: 1
-  col: 0
-  size_x: 24
-  size_y: 1
-  action_id: null
-  dashboard_tab_id:
-  - xBLdW9FsgRuB2HGhWiBa_
-  - N-o1tJ9swdO4YJycqMA8P
-  inline_parameters: null
-  parameter_mappings:
-  - parameter_id: 9d9cddd4
-    target:
-    - text-tag
-    - product_category
-  series: []
-  visualization_settings:
-    column_settings: null
-    dashcard.background: false
-    text: Find below a breakdown of products and their performance, filtered now for {{product_category}}
-    virtual_card:
-      archived: false
-      dataset_query: {}
-      display: text
-      name: null
-      visualization_settings: {}
-  serdes/meta:
-  - id: xBLdW9FsgRuB2HGhWiBa_
-    model: Dashboard
-  - id: N-o1tJ9swdO4YJycqMA8P
-    model: DashboardTab
-  - id: NZSFQPtNkT7fLZeeW9Oo0
-    model: DashboardCard
 - entity_id: f-Hf9bL9_oArQCg-kLSdY
   card_id: null
   created_at: '2025-08-26T21:26:17.037705Z'
@@ -532,6 +497,41 @@ dashcards:
     model: DashboardTab
   - id: wZV8zAS2XAMH_ub1DG58A
     model: DashboardCard
+- entity_id: NZSFQPtNkT7fLZeeW9Oo0
+  card_id: null
+  created_at: '2025-08-26T21:26:17.037705Z'
+  row: 1
+  col: 0
+  size_x: 24
+  size_y: 1
+  action_id: null
+  dashboard_tab_id:
+  - xBLdW9FsgRuB2HGhWiBa_
+  - N-o1tJ9swdO4YJycqMA8P
+  inline_parameters: null
+  parameter_mappings:
+  - parameter_id: 9d9cddd4
+    target:
+    - text-tag
+    - product_category
+  series: []
+  visualization_settings:
+    column_settings: null
+    dashcard.background: false
+    text: Find below a breakdown of products and their performance, filtered now for {{product_category}}
+    virtual_card:
+      archived: false
+      dataset_query: {}
+      display: text
+      name: null
+      visualization_settings: {}
+  serdes/meta:
+  - id: xBLdW9FsgRuB2HGhWiBa_
+    model: Dashboard
+  - id: N-o1tJ9swdO4YJycqMA8P
+    model: DashboardTab
+  - id: NZSFQPtNkT7fLZeeW9Oo0
+    model: DashboardCard
 - entity_id: R6UJhgRJd678v2nvAioH_
   card_id: AXDOILGSNqoWoxV1NuvTt
   created_at: '2025-08-26T21:26:17.037705Z'
@@ -713,6 +713,76 @@ dashcards:
     model: DashboardTab
   - id: mM0yHMzeaWUi0uJkT1puj
     model: DashboardCard
+- entity_id: -IoAlBOQzsTLapLzSFQoE
+  card_id: X8HNuB_i3j2uNFnsx3vQ0
+  created_at: '2025-08-26T21:26:17.037705Z'
+  row: 2
+  col: 12
+  size_x: 12
+  size_y: 8
+  action_id: null
+  dashboard_tab_id:
+  - xBLdW9FsgRuB2HGhWiBa_
+  - N-o1tJ9swdO4YJycqMA8P
+  inline_parameters: null
+  parameter_mappings:
+  - card_id: X8HNuB_i3j2uNFnsx3vQ0
+    parameter_id: 9d9cddd4
+    target:
+    - dimension
+    - - field
+      - - Sample Database
+        - PUBLIC
+        - PRODUCTS
+        - CATEGORY
+      - base-type: type/Text
+        source-field:
+        - Sample Database
+        - PUBLIC
+        - ORDERS
+        - PRODUCT_ID
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: xBLdW9FsgRuB2HGhWiBa_
+    model: Dashboard
+  - id: N-o1tJ9swdO4YJycqMA8P
+    model: DashboardTab
+  - id: -IoAlBOQzsTLapLzSFQoE
+    model: DashboardCard
+- entity_id: zsygIGYHdnaVsoFLgitCe
+  card_id: null
+  created_at: '2025-08-26T21:26:17.037705Z'
+  row: 10
+  col: 0
+  size_x: 24
+  size_y: 1
+  action_id: null
+  dashboard_tab_id:
+  - xBLdW9FsgRuB2HGhWiBa_
+  - UaPZl7PULaGoAGquao9XS
+  inline_parameters: null
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+    dashcard.background: false
+    text: Deeper Dive
+    virtual_card:
+      archived: false
+      dataset_query: {}
+      display: heading
+      name: null
+      visualization_settings: {}
+  serdes/meta:
+  - id: xBLdW9FsgRuB2HGhWiBa_
+    model: Dashboard
+  - id: UaPZl7PULaGoAGquao9XS
+    model: DashboardTab
+  - id: zsygIGYHdnaVsoFLgitCe
+    model: DashboardCard
 - entity_id: _VxmRsylZKkpe0H-lGwyT
   card_id: D4o8cCTOY-SnxoYDRVWcO
   created_at: '2025-08-26T21:26:17.037705Z'
@@ -790,45 +860,6 @@ dashcards:
   - id: UaPZl7PULaGoAGquao9XS
     model: DashboardTab
   - id: _VxmRsylZKkpe0H-lGwyT
-    model: DashboardCard
-- entity_id: -IoAlBOQzsTLapLzSFQoE
-  card_id: X8HNuB_i3j2uNFnsx3vQ0
-  created_at: '2025-08-26T21:26:17.037705Z'
-  row: 2
-  col: 12
-  size_x: 12
-  size_y: 8
-  action_id: null
-  dashboard_tab_id:
-  - xBLdW9FsgRuB2HGhWiBa_
-  - N-o1tJ9swdO4YJycqMA8P
-  inline_parameters: null
-  parameter_mappings:
-  - card_id: X8HNuB_i3j2uNFnsx3vQ0
-    parameter_id: 9d9cddd4
-    target:
-    - dimension
-    - - field
-      - - Sample Database
-        - PUBLIC
-        - PRODUCTS
-        - CATEGORY
-      - base-type: type/Text
-        source-field:
-        - Sample Database
-        - PUBLIC
-        - ORDERS
-        - PRODUCT_ID
-    - stage-number: 0
-  series: []
-  visualization_settings:
-    column_settings: null
-  serdes/meta:
-  - id: xBLdW9FsgRuB2HGhWiBa_
-    model: Dashboard
-  - id: N-o1tJ9swdO4YJycqMA8P
-    model: DashboardTab
-  - id: -IoAlBOQzsTLapLzSFQoE
     model: DashboardCard
 - entity_id: vPyErYUpYMjucZa7z4smS
   card_id: Ey2qt4I-wcg1E0846iUQS
@@ -976,37 +1007,6 @@ dashcards:
   - id: UaPZl7PULaGoAGquao9XS
     model: DashboardTab
   - id: 3MGVK2PTcGxJwDXlDqjSE
-    model: DashboardCard
-- entity_id: zsygIGYHdnaVsoFLgitCe
-  card_id: null
-  created_at: '2025-08-26T21:26:17.037705Z'
-  row: 10
-  col: 0
-  size_x: 24
-  size_y: 1
-  action_id: null
-  dashboard_tab_id:
-  - xBLdW9FsgRuB2HGhWiBa_
-  - UaPZl7PULaGoAGquao9XS
-  inline_parameters: null
-  parameter_mappings: []
-  series: []
-  visualization_settings:
-    column_settings: null
-    dashcard.background: false
-    text: Deeper Dive
-    virtual_card:
-      archived: false
-      dataset_query: {}
-      display: heading
-      name: null
-      visualization_settings: {}
-  serdes/meta:
-  - id: xBLdW9FsgRuB2HGhWiBa_
-    model: Dashboard
-  - id: UaPZl7PULaGoAGquao9XS
-    model: DashboardTab
-  - id: zsygIGYHdnaVsoFLgitCe
     model: DashboardCard
 - entity_id: 4bnIg0l06MqSikGg2jPM1
   card_id: byM0vLfOiM1zBI_t1MUcO
