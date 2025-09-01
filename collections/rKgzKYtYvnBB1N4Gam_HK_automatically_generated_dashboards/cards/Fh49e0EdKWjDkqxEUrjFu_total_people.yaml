@@ -1,0 +1,66 @@
+name: Total People
+description: null
+entity_id: Fh49e0EdKWjDkqxEUrjFu
+created_at: '2025-09-01T14:40:13.319676Z'
+creator_id: ux-west@metabase.com
+display: scalar
+archived: false
+collection_id: rKgzKYtYvnBB1N4Gam_HK
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- people
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    aggregation:
+    - - count
+    source-table:
+    - Postgres 13
+    - public
+    - people
+  type: query
+result_metadata:
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+  graph.dimensions: null
+  graph.metrics:
+  - count
+  graph.series_labels:
+  - null
+card_schema: 22
+serdes/meta:
+- id: Fh49e0EdKWjDkqxEUrjFu
+  label: total_people
+  model: Card
+archived_directly: false
+dashboard_id: _5JCzYxTrYTRfJya6Onhv
+document_id: null
+metabase_version: vUNKNOWN (cb46d2e)
+source_card_id: null
+type: question

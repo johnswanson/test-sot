@@ -1,0 +1,667 @@
+name: A look at People
+description: An exploration of your users to get you started.
+entity_id: _5JCzYxTrYTRfJya6Onhv
+created_at: '2025-09-01T14:40:13.280561Z'
+creator_id: ux-west@metabase.com
+archived: false
+collection_id: rKgzKYtYvnBB1N4Gam_HK
+auto_apply_filters: true
+collection_position: null
+position: null
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+show_in_getting_started: false
+caveats: null
+points_of_interest: null
+parameters:
+- id: '-371656360'
+  name: Created At
+  sectionId: date
+  slug: created_at
+  type: date/all-options
+- id: '1745983251'
+  name: Source
+  sectionId: string
+  slug: source
+  type: string/=
+- id: '-428191957'
+  name: State
+  sectionId: location
+  slug: state
+  type: string/=
+- id: '-1819704770'
+  name: City
+  sectionId: location
+  slug: city
+  type: string/=
+- id: 2f6182b8
+  name: Date test
+  sectionId: date
+  slug: date_test
+  type: date/all-options
+serdes/meta:
+- id: _5JCzYxTrYTRfJya6Onhv
+  label: a_look_at_people
+  model: Dashboard
+archived_directly: false
+dashcards:
+- entity_id: dpdUkQZFSqVDLECZLaX4q
+  card_id: Fh49e0EdKWjDkqxEUrjFu
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 2
+  col: 0
+  size_x: 5
+  size_y: 3
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: Fh49e0EdKWjDkqxEUrjFu
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: Fh49e0EdKWjDkqxEUrjFu
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: Fh49e0EdKWjDkqxEUrjFu
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: Fh49e0EdKWjDkqxEUrjFu
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  - card_id: Fh49e0EdKWjDkqxEUrjFu
+    parameter_id: 2f6182b8
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - birth_date
+      - base-type: type/Date
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: dpdUkQZFSqVDLECZLaX4q
+    model: DashboardCard
+- entity_id: t3FG1rUBTR2PImbZvqPqM
+  card_id: null
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 0
+  col: 0
+  size_x: 24
+  size_y: 2
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+    dashcard.background: false
+    text: '# Overview'
+    text.align_vertical: bottom
+    virtual_card:
+      dataset_query: {}
+      display: text
+      name: null
+      visualization_settings: {}
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: t3FG1rUBTR2PImbZvqPqM
+    model: DashboardCard
+- entity_id: kC-9NFPUfOJmNZEyKxtDG
+  card_id: 78_N3i4NO6OzbzmVSlpB1
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 2
+  col: 5
+  size_x: 5
+  size_y: 3
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: 78_N3i4NO6OzbzmVSlpB1
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: 78_N3i4NO6OzbzmVSlpB1
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: 78_N3i4NO6OzbzmVSlpB1
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: 78_N3i4NO6OzbzmVSlpB1
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: kC-9NFPUfOJmNZEyKxtDG
+    model: DashboardCard
+- entity_id: hZUbgRkYLFika9GF1mLcv
+  card_id: ZO4uzgEwC9jgWfd8ucC3H
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 2
+  col: 10
+  size_x: 5
+  size_y: 3
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: ZO4uzgEwC9jgWfd8ucC3H
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: ZO4uzgEwC9jgWfd8ucC3H
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: ZO4uzgEwC9jgWfd8ucC3H
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: ZO4uzgEwC9jgWfd8ucC3H
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: hZUbgRkYLFika9GF1mLcv
+    model: DashboardCard
+- entity_id: TjdXR_-RBrzz_BPTmElzV
+  card_id: Mo6F-X75bFhtgqgMNeuA7
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 5
+  col: 0
+  size_x: 18
+  size_y: 7
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: Mo6F-X75bFhtgqgMNeuA7
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: Mo6F-X75bFhtgqgMNeuA7
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: Mo6F-X75bFhtgqgMNeuA7
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: Mo6F-X75bFhtgqgMNeuA7
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: TjdXR_-RBrzz_BPTmElzV
+    model: DashboardCard
+- entity_id: qZHridTVd2lwq2glRgUXX
+  card_id: null
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 12
+  col: 0
+  size_x: 24
+  size_y: 2
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+    dashcard.background: false
+    text: '# Where these People are'
+    text.align_vertical: bottom
+    virtual_card:
+      dataset_query: {}
+      display: text
+      name: null
+      visualization_settings: {}
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: qZHridTVd2lwq2glRgUXX
+    model: DashboardCard
+- entity_id: iv4Kdg8-9R_I8q9V4OOE4
+  card_id: 5Fu4uuqdfIS8xrpS8ogCx
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 14
+  col: 0
+  size_x: 12
+  size_y: 8
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: 5Fu4uuqdfIS8xrpS8ogCx
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: 5Fu4uuqdfIS8xrpS8ogCx
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: 5Fu4uuqdfIS8xrpS8ogCx
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: 5Fu4uuqdfIS8xrpS8ogCx
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: iv4Kdg8-9R_I8q9V4OOE4
+    model: DashboardCard
+- entity_id: SFPEJCxEXWyLV-4-y8B2e
+  card_id: nloTpIIM_-JNxfGnQgNLI
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 14
+  col: 12
+  size_x: 12
+  size_y: 8
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: nloTpIIM_-JNxfGnQgNLI
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: nloTpIIM_-JNxfGnQgNLI
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: nloTpIIM_-JNxfGnQgNLI
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: nloTpIIM_-JNxfGnQgNLI
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: SFPEJCxEXWyLV-4-y8B2e
+    model: DashboardCard
+- entity_id: sLtD9Wyo81zUKqMcdtRxZ
+  card_id: null
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 22
+  col: 0
+  size_x: 24
+  size_y: 2
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+    dashcard.background: false
+    text: '# How these People are distributed'
+    text.align_vertical: bottom
+    virtual_card:
+      dataset_query: {}
+      display: text
+      name: null
+      visualization_settings: {}
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: sLtD9Wyo81zUKqMcdtRxZ
+    model: DashboardCard
+- entity_id: tBLnMrDbqJSXdagvnfF1s
+  card_id: OnLE2OmfrPa4brmyrXI0j
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 24
+  col: 0
+  size_x: 12
+  size_y: 8
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: OnLE2OmfrPa4brmyrXI0j
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: OnLE2OmfrPa4brmyrXI0j
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: OnLE2OmfrPa4brmyrXI0j
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: OnLE2OmfrPa4brmyrXI0j
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: tBLnMrDbqJSXdagvnfF1s
+    model: DashboardCard
+- entity_id: lybIy23acNwNWJ50YAAHq
+  card_id: ptkqmUUfzfaTUcOTYb5Qq
+  created_at: '2025-09-01T14:40:13.769416Z'
+  row: 24
+  col: 12
+  size_x: 12
+  size_y: 8
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings:
+  - card_id: ptkqmUUfzfaTUcOTYb5Qq
+    parameter_id: '-371656360'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - created_at
+      - null
+    - stage-number: 0
+  - card_id: ptkqmUUfzfaTUcOTYb5Qq
+    parameter_id: '1745983251'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - source
+      - null
+    - stage-number: 0
+  - card_id: ptkqmUUfzfaTUcOTYb5Qq
+    parameter_id: '-428191957'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - null
+    - stage-number: 0
+  - card_id: ptkqmUUfzfaTUcOTYb5Qq
+    parameter_id: '-1819704770'
+    target:
+    - dimension
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - city
+      - null
+    - stage-number: 0
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: lybIy23acNwNWJ50YAAHq
+    model: DashboardCard
+- entity_id: uAQe04lKZ-zG-ZnfiDKEB
+  card_id: oE1U9j5cAS0BI8ghubAvD
+  created_at: '2025-09-01T14:41:30.737442Z'
+  row: 32
+  col: 0
+  size_x: 12
+  size_y: 9
+  action_id: null
+  dashboard_tab_id: null
+  inline_parameters: []
+  parameter_mappings: []
+  series: []
+  visualization_settings:
+    column_settings: null
+  serdes/meta:
+  - id: _5JCzYxTrYTRfJya6Onhv
+    model: Dashboard
+  - id: uAQe04lKZ-zG-ZnfiDKEB
+    model: DashboardCard
+initially_published_at: null
+tabs: []
+width: fixed
