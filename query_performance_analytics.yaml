@@ -7,7 +7,7 @@ tags:
 database: AppDB
 target:
   type: table
-  name: query_performance_summary
+  name: PUBLIC.query_performance_summary
 source: |
   WITH query_stats AS (
     SELECT 

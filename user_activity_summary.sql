@@ -9,7 +9,7 @@
 -- database: AppDB
 -- target:
 --   type: table
---   name: user_activity_daily
+--   name: PUBLIC.user_activity_daily
 -- METABASE_END
 
 WITH daily_logins AS (
