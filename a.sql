@@ -9,4 +9,4 @@
 -- database: "AppDB"
 -- METABASE_END
 
-SELECT 123;
+SELECT 1234;
