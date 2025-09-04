@@ -1,0 +1,110 @@
+name: Per state
+description: null
+entity_id: 5Fu4uuqdfIS8xrpS8ogCx
+created_at: '2025-09-01T14:40:13.557039Z'
+creator_id: ux-west@metabase.com
+display: map
+archived: false
+collection_id: rKgzKYtYvnBB1N4Gam_HK
+collection_preview: true
+collection_position: null
+query_type: query
+database_id: Postgres 13
+table_id:
+- Postgres 13
+- public
+- people
+enable_embedding: false
+embedding_params: null
+made_public_by_id: null
+public_uuid: null
+parameters: []
+parameter_mappings: []
+dataset_query:
+  database: Postgres 13
+  query:
+    aggregation:
+    - - count
+    breakout:
+    - - field
+      - - Postgres 13
+        - public
+        - people
+        - state
+      - base-type: type/Text
+    source-table:
+    - Postgres 13
+    - public
+    - people
+  type: query
+result_metadata:
+- active: true
+  base_type: type/Text
+  database_type: bpchar
+  description: The state or province of the account’s billing address
+  display_name: State
+  effective_type: type/Text
+  field_ref:
+  - field
+  - - Postgres 13
+    - public
+    - people
+    - state
+  - base-type: type/Text
+  id:
+  - Postgres 13
+  - public
+  - people
+  - state
+  name: state
+  position: 7
+  semantic_type: type/State
+  source: breakout
+  table_id:
+  - Postgres 13
+  - public
+  - people
+  visibility_type: normal
+  lib/breakout?: true
+  lib/deduplicated-name: state
+  lib/desired-column-alias: state
+  lib/original-display-name: State
+  lib/original-name: state
+  lib/source: source/table-defaults
+  lib/source-column-alias: state
+- base_type: type/BigInteger
+  database_type: int8
+  display_name: Count
+  effective_type: type/BigInteger
+  field_ref:
+  - aggregation
+  - 0
+  name: count
+  semantic_type: type/Quantity
+  source: aggregation
+  lib/deduplicated-name: count
+  lib/desired-column-alias: count
+  lib/original-name: count
+  lib/source: source/aggregations
+  lib/source-column-alias: count
+visualization_settings:
+  column_settings: null
+  graph.dimensions:
+  - state
+  graph.metrics:
+  - count
+  graph.series_labels:
+  - null
+  map.region: us_states
+  map.type: region
+card_schema: 22
+serdes/meta:
+- id: 5Fu4uuqdfIS8xrpS8ogCx
+  label: per_state
+  model: Card
+archived_directly: false
+dashboard_id: _5JCzYxTrYTRfJya6Onhv
+document_id: null
+metabase_version: vUNKNOWN (cb46d2e)
+source_card_id: null
+type: question
