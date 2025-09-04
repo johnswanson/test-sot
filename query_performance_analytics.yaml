@@ -2,7 +2,7 @@ entity: model/Transform:v1
 name: Query Performance Analytics
 identifier: query-performance-analytics
 description: Analyzes query execution performance and identifies slow-running queries for optimization
-tags: []
+tags: ["weekly"]
 database: AppDB
 target:
   type: table
