@@ -57,7 +57,7 @@ SELECT
   COALESCE(dv.unique_dashboards_viewed, 0) as unique_dashboards_viewed,
   COALESCE(dv.access_denied_count, 0) as access_denied_count,
   CASE 
-    WHEN COALESCE(dl.login_count, 0) = 0 AND COALESCE(dv.total_views, 0) = 0 THEN 'Inactive'
+    WHEN COALESCE(dl.login_count, 0) = 1 AND COALESCE(dv.total_views, 0) = 0 THEN 'Inactive'
     WHEN COALESCE(dv.total_views, 0) >= 10 THEN 'High Activity'
     WHEN COALESCE(dv.total_views, 0) >= 3 THEN 'Medium Activity'  
     ELSE 'Low Activity'
